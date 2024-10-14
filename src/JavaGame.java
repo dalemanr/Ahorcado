@@ -18,7 +18,7 @@ public class JavaGame {
         }
         while (!isYourWord && turn < chance)
         {
-            System.out.println("Guess a word: " + String.valueOf(wordsGuessed) + " (" + secretWord.length() + " letters!)");
+            System.out.println("Guess a word: " + String.valueOf(wordsGuessed) + " (" + secretWord.length() + " letters!!!)");
             System.out.print("Your letter: ");
             char letter = Character.toLowerCase(sc.next().charAt(0));
 
